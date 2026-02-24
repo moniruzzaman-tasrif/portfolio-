@@ -1,0 +1,499 @@
+:root {
+  --bachground: #f9f7f7;
+  --bachground2: #dbe2ef;
+  --text: #3f72af;
+  --font: #112d4e;
+  --margin: 4rem;
+  --textp: #5c5c5c;
+}
+
+@media only screen and (max-width: 1399.98px) {
+  .project-area {
+    row-gap: 1rem;
+    column-gap: 1rem;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .texr-heros h1 {
+    font-size: 2rem;
+  }
+  /* .about-content-area{
+    grid-template-columns:repeat( 2 , 200px)
+  } */
+  .poj-item {
+    height: 100%;
+  }
+
+  .heros-image {
+    width: 350px;
+    height: 350px;
+  }
+}
+
+@media only screen and (max-width: 1199.98px) {
+  .button-area .view-my,
+  .button-area .get-in {
+    font-size: 0.9rem;
+  }
+  .poj-item {
+    height: 100%;
+  }
+  .heros-image {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 991.98px) {
+  .manue-res-btn {
+    display: block;
+  }
+  .nav-area {
+  }
+  .navber {
+    position: relative;
+  }
+  .nav-main {
+    right: -999999px;
+    top: 0;
+    position: absolute;
+    background-color: #fff;
+    width: 300px;
+    height: 400px;
+  }
+  .nav-main ul {
+    margin-top: 3rem;
+    flex-direction: column;
+  }
+  .fa-xmark {
+    top: 5%;
+    left: 5%;
+    font-size: 1.3rem;
+    color: var(--font);
+    position: absolute;
+  }
+  /* .main-manu {
+    height: 100%;
+  } */
+  .heros {
+    flex-direction: column;
+  }
+  .texr-heros {
+    order: 2;
+    width: 100%;
+    text-align: center;
+  }
+  .photo-heros {
+    width: 100%;
+    order: 1;
+    justify-content: center;
+  }
+  .heros-image {
+    width: 400px;
+    height: 400px;
+  }
+  .button-area {
+    justify-content: center;
+  }
+  .ed-ex {
+    text-align: center;
+  }
+
+  .educatin-icon,
+  .experinence-icon {
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+  .academy-name-two p,
+  .academy-name p {
+    padding: 0 12rem;
+  }
+  .academy-name::before,
+  .company-name::before {
+    bottom: -1.5rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 4px;
+  }
+  .academy-name-two::before,
+  .company-name-two::before {
+    bottom: -1.5rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 4px;
+  }
+
+  .education,
+  .academy-name,
+  .academy-name-two,
+  .company-name,
+  .company-name-two {
+    margin-left: 0;
+  }
+  .company-name ul li::after,
+  .company-name-two ul li::after {
+    display: none;
+  }
+  .skill-text {
+    justify-content: center;
+    margin: 2rem 0;
+  }
+  .skill-area {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .fontend,
+  .tools,
+  .backend {
+    width: 100%;
+  }
+  .fontend h2,
+  .tools h2,
+  .backend h2 {
+    align-self: center;
+    margin-left: 0;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+  .tools-text {
+    margin-left: 0 !important;
+  }
+
+  .project .project-text {
+    text-align: center;
+  }
+  .project-area {
+    margin-top: 2rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .poj-item {
+    height: 90%;
+  }
+  .poj-item .poj-text .proj-viwe {
+    margin-top: 1.5rem;
+  }
+  .about-content-area {
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+  }
+
+  .about-text p {
+    text-align: center;
+    padding-right: 0;
+  }
+
+  .interest-achive {
+    justify-content: center;
+  }
+
+  .contract-socile {
+    flex-direction: column;
+    align-items: center;
+  }
+  .contract-socile .con-from {
+    width: 100%;
+  }
+  .con-social {
+    width: 100%;
+    margin-bottom: 3rem;
+  }
+  .social-media-area {
+    text-align: center;
+  }
+  .social-media-area .social {
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 767.98px) and (min-width: 320px) {
+  .heros-image {
+    width: 250px;
+    height: 250px;
+  }
+  .project-area {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .academy-name-two p,
+  .academy-name p {
+    padding: 0 4rem;
+  }
+  .poj-item {
+    height: 70%;
+  }
+  .footer-item {
+    grid-template-columns: repeat(1, 1fr);
+    place-items: center;
+    text-align: center;
+  }
+  .copyright {
+    padding: 2rem 0rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+}
+@media screen and (max-width: 575.98px) {
+  .heros-image {
+    width: 250px;
+    height: 250px;
+  }
+  .texr-heros h1 {
+    font-size: 1.8rem;
+  }
+  .texr-heros h3 {
+    font-size: 1rem;
+  }
+  .texr-heros p {
+    font-size: 0.8rem;
+  }
+  .button-area .view-my,
+  .button-area .get-in {
+    font-size: 0.5rem;
+    padding: 0.5rem 1.2rem;
+  }
+  .icon-area a {
+    font-size: 1rem;
+  }
+  .resume-name-text h1 {
+    font-size: 1.8rem;
+  }
+  .educatin-icon h1,
+  .experinence-icon h1 {
+    font-size: 1.6rem;
+  }
+  .educatin-icon i,
+  .experinence-icon i {
+    width: 33px;
+    height: 33px;
+    font-size: 0.8rem;
+  }
+  .academy-name h4,
+  .academy-name-two h4,
+  .company-name h4,
+  .company-name-two h4 {
+    font-size: 0.9rem;
+  }
+  .skill-text i {
+    width: 40px;
+    height: 40px;
+    font-size: 1rem;
+  }
+  .skill-text h1 {
+    font-size: 1.5rem;
+  }
+  .fontend h2,
+  .tools h2,
+  .backend h2 {
+    font-size: 1.3rem;
+  }
+  .fontend ul li span,
+  .tools ul li span,
+  .backend ul li span {
+    font-size: 0.8rem;
+  }
+  .fontend ul li .reding,
+  .tools ul li .reding,
+  .backend ul li .reding {
+    font-size: 0.8rem;
+  }
+  .resume-down .download a button {
+    font-size: 0.9rem;
+  }
+  .resume-down .download {
+    padding: 0.8rem;
+    width: 240px;
+  }
+  .project .project-text h1,
+  .about-me-header h1,
+  .contract-title h1 {
+    font-size: 1.8rem;
+  }
+  .poj-item {
+    height: 90%;
+  }
+  .interest-achive {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .interest,
+  .achive {
+    width: 100%;
+  }
+  .interest-text i,
+  .achive-text i {
+    width: 2rem;
+    height: 2rem;
+    font-size: 0.8rem;
+  }
+
+  .interest-text h3,
+  .achive-text h3 {
+    font-size: 1rem;
+  }
+  a .btn-about {
+    padding: 1rem 1.2rem;
+  }
+  .contract-socile .con-from h3,
+  .informetion-area h3 {
+    font-size: 1rem;
+  }
+  .con-from form input[type='button'] {
+    font-size: 0.8rem;
+  }
+  .informetion-area .email,
+  .informetion-area .phone,
+  .informetion-area .location {
+    margin-top: 1rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .con-social .informetion-area {
+    text-align: center;
+  }
+  .social-media-area .social {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 420px) {
+  .texr-heros h1,
+  .resume-name-text h1,
+  .educatin-icon h1 .educatin-icon h1,
+  .experinence-icon h1,
+  .project .project-text h1,
+  .about-me-header h1,
+  .contract-title h1 {
+    font-size: 1.3rem;
+  }
+  .texr-heros h3 {
+    font-size: 0.8rem;
+  }
+  .academy-name h4,
+  .academy-name-two h4,
+  .company-name h4,
+  .company-name-two h4 {
+    font-size: 0.8rem;
+  }
+  .university {
+    font-size: 0.9rem;
+  }
+  .skill-text h1 {
+    font-size: 1.2rem;
+  }
+  .skill-text i {
+    width: 35px;
+    height: 35px;
+    font-size: 0.9rem;
+  }
+  .fontend h2,
+  .tools h2,
+  .backend h2 {
+    font-size: 1rem;
+  }
+  .fontend ul li span,
+  .tools ul li span,
+  .backend ul li span {
+    font-size: 0.7rem;
+  }
+  .fontend ul li .reding,
+  .tools ul li .reding,
+  .backend ul li .reding {
+    font-size: 0.6rem;
+  }
+  .skill-area {
+    margin-bottom: 2.4rem;
+  }
+  .resume-down .download a button {
+    font-size: 0.7rem;
+    padding-bottom: 8px;
+  }
+  .poj-item {
+    height: 97%;
+  }
+  .about-text p {
+    font-size: 0.8rem;
+  }
+  .interest-text h3,
+  .achive-text h3 {
+    font-size: 0.8rem;
+  }
+  .interest ul li,
+  .achive ul li {
+    font-size: 0.7rem;
+  }
+  .interest-text i,
+  .achive-text i {
+    width: 1.7rem;
+    height: 1.7rem;
+    font-size: 0.7rem;
+  }
+  a .btn-about {
+    height: 34px;
+    width: 103px;
+  }
+  .btn-about-last {
+    padding: 0 !important;
+  }
+  .contract-title span {
+    font-size: 0.7rem;
+  }
+  .contract-socile .con-from h3,
+  .informetion-area h3 {
+    font-size: 0.9rem;
+  }
+
+  .contract-socile .con-from form label {
+    font-size: 0.7rem;
+  }
+  .con-from form input[type='button'] {
+    font-size: 0.7rem;
+  }
+  .contract-socile .con-from h3,
+  .informetion-area h3 {
+    font-size: 0.8rem;
+  }
+  .informetion-area .email span,
+  .informetion-area .phone span,
+  .informetion-area .location span {
+    font-size: 0.7rem;
+  }
+  .informetion-area .email i,
+  .informetion-area .phone i,
+  .informetion-area .location i {
+    width: 30px;
+    height: 30px;
+    font-size: 0.9rem;
+  }
+  .social-media-area h3 {
+    font-size: 0.9rem;
+  }
+  .social-media-area span {
+    font-size: 0.7rem;
+  }
+  .social-media-area .social a i {
+    width: 75px;
+    height: 40px;
+  }
+  footer-me h3,
+  .footer-quick h3,
+  .footer-services h3,
+  .footer-newsletter h3 {
+    font-size: 0.8rem;
+  }
+  .footer-me span,
+  .footer-newsletter span {
+    color: #cccc;
+    font-size: 0.7rem;
+  }
+  .footer-quick ul li,
+  .footer-services ul li {
+    font-size: 0.8rem;
+  }
+  .copyright .copy,
+  .trams-condition a {
+    font-size: 0.8rem;
+  }
+}
