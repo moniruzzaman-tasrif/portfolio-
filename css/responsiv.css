@@ -58,7 +58,7 @@
   .nav-main {
     right: 999999px;
     top: 0;
-    display: none; 
+    /* display: none; */
     position: absolute;
     background-color: #fff;
     width: 300px;
@@ -449,6 +449,18 @@
     font-size: 0.9rem;
   }
 
+  .about-marg,
+  .contract,
+  .footer-marg {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .resume-page,
+  .heros {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
   .contract-socile .con-from form label {
     font-size: 0.7rem;
   }
@@ -499,5 +511,72 @@
   .copyright .copy,
   .trams-condition a {
     font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .button-area .view-my,
+  .button-area .get-in {
+    padding: 0;
+    width: 79px;
+    height: 31px;
+  }
+  .skill-text h1 {
+    font-size: 1rem;
+  }
+  .fontend ul li,
+  .tools ul li,
+  .backend ul li {
+    padding: 0 0.5rem;
+    width: 170px;
+    height: 30px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+  }
+  .fontend ul li .reding,
+  .tools ul li .reding,
+  .backend ul li .reding {
+    font-size: 0.5rem;
+  }
+  .fontend ul li span,
+  .tools ul li span,
+  .backend ul li span {
+    font-size: 0.5rem;
+  }
+  .resume-down .download {
+    margin: 0;
+    padding: 0;
+    width: 165px;
+    height: 45px;
+  }
+  .resume-page {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .resume-down .download a button {
+    font-size: 0.6rem;
+  }
+  resume-down .download i {
+    font-size: 1rem;
+  }
+  .poj-item {
+    height: 100%;
+  }
+  .poj-item .poj-text .proj-viwe {
+    margin-top: 0.9rem;
+  }
+  .about-content-area {
+  }
+  .about-marg {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  a .btn-about {
+    padding: 0;
+    margin: 0;
+    height: 34px;
+    width: 111px;
+    font-size: 0.6rem;
   }
 }
