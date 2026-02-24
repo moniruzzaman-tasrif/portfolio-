@@ -105,7 +105,7 @@
   }
   .academy-name-two p,
   .academy-name p {
-    padding: 0 12rem;
+    padding: 0 2rem;
   }
   .academy-name::before,
   .company-name::before {
@@ -497,3 +497,4 @@
     font-size: 0.8rem;
   }
 }
+
